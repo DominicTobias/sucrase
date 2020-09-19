@@ -1,11 +1,12 @@
 {
-  "name": "sucrase",
+  "name": "sucrase-browser",
   "version": "3.15.0",
   "description": "Super-fast alternative to Babel for when you can target modern JS runtimes",
   "author": "Alan Pierce <alangpierce@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "main": "dist/index",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
     "sucrase": "./bin/sucrase",
