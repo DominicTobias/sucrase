@@ -1,6 +1,6 @@
 # Sucrase
 
-**Note:** This is a fork of sucrase which only compiles an ESM build with .js extension due to having problems running it in Gatsby, Create-React-App etc.
+**Note:** This is a fork of sucrase to run better in the browser. It only compiles an ESM build with .js extension due to having problems running it in Gatsby, Create-React-App etc due to compiler confusion around the mix of .mjs and .js files.
 
 [![Build Status](https://travis-ci.org/alangpierce/sucrase.svg?branch=master)](https://travis-ci.org/alangpierce/sucrase)
 [![npm version](https://img.shields.io/npm/v/sucrase.svg)](https://www.npmjs.com/package/sucrase)
